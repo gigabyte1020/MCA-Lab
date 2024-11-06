@@ -1,0 +1,20 @@
+*{
+    margin:auto;
+    
+}
+h1{
+    text-align: center;
+}
+.lnk{
+    height: 75px;
+}
+table{
+    margin-top: 4%;
+    border-collapse: collapse;
+    width: 40%;
+    border-width: 4px;
+    border-radius: 25%;
+}
+td{
+padding: 15px;
+}

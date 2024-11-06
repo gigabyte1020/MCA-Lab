@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="scritp.js"></script>
+  </head>
+  <body>
+    <marquee
+      behaviour="scroll"
+      onmouseover="stop()"
+      onmouseout="start()"
+      id="t1"
+      >THIS IS A FORM</marquee
+    >
+    <div>
+      <table border="1" style="border-collapse: collapse">
+        <form>
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input type="text" class="width1" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>Age:</label>
+            </td>
+            <td>
+              <select>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" class="width1" /></td>
+          </tr>
+          <tr>
+            <td>Confirm Password:</td>
+            <td><input type="password" class="width1" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label>Security Question:</label>
+            </td>
+
+            <td>
+              <table>
+                <tr>
+                  <td>
+                    <input type="radio" name="que" value="pnam" />What is your
+                    pets name<br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" name="que" value="fname" />What is your
+                    friend's name<br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" name="que" value="clor" />What is your
+                    favorite color<br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="radio" name="que" value="tname" />What is your
+                    teachers name
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>Answer:</td>
+            <td>
+              <input type="text" class="width1" />
+            </td>
+          </tr>
+          <tr>
+            <td>DoB:</td>
+            <td>
+              <input type="date" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Email Id:</label>
+            </td>
+            <td>
+              <input type="email" placeholder="example@xyz.com" />
+            </td>
+          </tr>
+          <tr>
+            <td>Languages Known:</td>
+            <td>
+              <input type="checkbox" /> Malayalam <br />
+              <input type="checkbox" /> English<br />
+              <input type="checkbox" /> Hindi<br />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Phone No:</td>
+            <td>
+              <table>
+                <tr>
+                  <td>Home</td>
+                  <td>Office</td>
+                </tr>
+                <tr>
+                  <td><input type="number" /></td>
+                  <td><input type="number" /></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>Upload CV:</td>
+            <td>
+              <input type="file" id="myfile" name="myfile" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><button>Register</button></td>
+            <td><input type="reset" /></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    margin: auto;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+  }
+  table {
+    margin-top: 40px;
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 10px;
+  }
+  body {
+    background-color: rgb(202, 202, 198);
+  }
+  button {
+    background-color: #4caf50;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 4%;
+  }
+  input[type="reset"] {
+    background-color: #4caf50;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 1.5%;
+  }
+  .width1 {
+    width: 30%;
+  }
+  input,
+  select {
+    border-radius: 4px;
+  }
+  textarea {
+    resize: none;
+  }
+  input::placeholder {
+    color: transparent;
+  }
+</style>

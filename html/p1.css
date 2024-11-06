@@ -1,0 +1,21 @@
+.d1 {
+  background-color: lightgray;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.p1 {
+  margin-left: 5%;
+  font-size: x-large;
+}

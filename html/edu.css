@@ -1,0 +1,17 @@
+table{
+    margin-top: 4%;
+    border-collapse: collapse;
+    border-width: 20px;
+    border-color: brown;
+    border-style: double;
+}
+td{
+padding: 15px;
+}
+*{
+    margin:auto;
+    
+}
+h1{
+    text-align: center;
+}

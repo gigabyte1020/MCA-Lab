@@ -14,7 +14,7 @@ void main()
     int i, n, ch = 1;
     while (ch != 0)
     {
-        printf("Enter 1 to Enqueue, 2 to display,3 to Dequeue, 0 to exit: ");
+        printf("Enter 1 to Enqueue, 2 to display,3 to Dequeue,4 to display in reverse, 0 to exit: ");
         scanf("%d", &ch);
         switch (ch)
         {

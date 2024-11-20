@@ -1,0 +1,41 @@
+.d1 {
+  background-color: rgb(213, 146, 117);
+  padding: 1%;
+}
+h1 {
+  margin-left: 45%;
+}
+.container{
+    display:flex;
+}
+.d3 {
+    
+  background-color: rgb(203, 114, 114);
+  padding: 15%;
+}
+
+.d4 {
+    
+  background-color: rgb(107, 107, 167);
+  padding: 15%;
+}
+.d2 {
+    background-color: rgb(174, 178, 119);
+    position: relative;
+    height: 250px;
+}
+.img1, .img2{
+    position: absolute;
+    width: 250px;
+    height: 250px; 
+    margin-left: 40%;
+    animation: anim 4s infinite;
+}
+.img2{
+    animation-delay: 2s;
+}
+@keyframes anim{
+    0%{ opacity: 0;}
+    50%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
